@@ -319,6 +319,14 @@ MIT © [이민수](https://github.com/amondnet)
 
 이 프로젝트는 Toss의 [@toss/use-funnel](https://github.com/toss/use-funnel)에서 영감을 받아 제작되었습니다.
 
+## 문서
+
+- 📚 [빠른 시작 가이드](./QUICKSTART.md) - 5분 안에 시작하기
+- 🔧 [설정 가이드](./SETUP.md) - 상세한 개발 환경 설정
+- 📁 [프로젝트 구조](./PROJECT_STRUCTURE.md) - 아키텍처 개요
+- 🤝 [기여 가이드](./CONTRIBUTING.md) - 기여 방법
+- 📝 [프로젝트 요약](./SUMMARY.md) - 완전한 설정 요약
+
 ## 링크
 
 - [원본 라이브러리 (React)](https://github.com/toss/use-funnel)

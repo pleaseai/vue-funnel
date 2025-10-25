@@ -1,0 +1,68 @@
+{
+  "name": "vue-funnel",
+  "version": "0.1.0",
+  "description": "Vue 3 composable for managing multi-step funnels with type-safe navigation",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "typecheck": "vue-tsc --noEmit",
+    "lint": "eslint .",
+    "clean": "rm -rf dist node_modules .turbo"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "composable",
+    "funnel",
+    "wizard",
+    "form",
+    "multi-step",
+    "navigation",
+    "typescript"
+  ],
+  "author": {
+    "name": "Minsu Lee",
+    "url": "https://github.com/amondnet"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amondnet/vue-funnel.git",
+    "directory": "packages/vue-funnel"
+  },
+  "bugs": {
+    "url": "https://github.com/amondnet/vue-funnel/issues"
+  },
+  "homepage": "https://github.com/amondnet/vue-funnel#readme",
+  "peerDependencies": {
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitest/ui": "^2.1.8",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^15.11.7",
+    "unbuild": "^2.0.0",
+    "vite": "^6.0.5",
+    "vitest": "^2.1.8",
+    "vue": "^3.5.13",
+    "vue-tsc": "^2.2.0"
+  }
+}

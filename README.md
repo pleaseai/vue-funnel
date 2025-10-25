@@ -319,6 +319,14 @@ MIT © [Minsu Lee](https://github.com/amondnet)
 
 This project is inspired by and based on [@toss/use-funnel](https://github.com/toss/use-funnel) by Toss.
 
+## Documentation
+
+- 📚 [Quick Start Guide](./QUICKSTART.md) - Get started in 5 minutes
+- 🔧 [Setup Guide](./SETUP.md) - Detailed development setup
+- 📁 [Project Structure](./PROJECT_STRUCTURE.md) - Architecture overview
+- 🤝 [Contributing Guide](./CONTRIBUTING.md) - How to contribute
+- 📝 [Project Summary](./SUMMARY.md) - Complete setup summary
+
 ## Links
 
 - [Original Library (React)](https://github.com/toss/use-funnel)
