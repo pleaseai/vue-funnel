@@ -1,8 +1,8 @@
 {
   "name": "vue-funnel",
+  "type": "module",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
   "packageManager": "pnpm@9.6.0",
   "engines": {
     "node": ">=18.0.0",
@@ -13,7 +13,7 @@
     "dev": "turbo run dev",
     "test": "turbo run test",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{md,json}\"",
+    "format": "eslint --fix .",
     "typecheck": "turbo run typecheck",
     "clean": "turbo run clean && rm -rf node_modules",
     "prepare": "husky"
@@ -22,6 +22,7 @@
     "@antfu/eslint-config": "^3.9.0",
     "@changesets/cli": "^2.27.5",
     "eslint": "^9.18.0",
+    "eslint-plugin-format": "^1.0.2",
     "husky": "^9.1.7",
     "lint-staged": "^15.2.11",
     "prettier": "^3.4.2",
@@ -30,11 +31,8 @@
     "vitest": "^2.1.8"
   },
   "lint-staged": {
-    "*.{ts,tsx,vue}": [
+    "*.{ts,tsx,vue,js,jsx,mjs,cjs,html,css,scss,less,md,json}": [
       "eslint --fix"
-    ],
-    "*.{ts,tsx,vue,md,json}": [
-      "prettier --write"
     ]
   }
 }
